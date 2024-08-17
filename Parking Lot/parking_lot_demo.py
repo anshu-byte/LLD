@@ -1,4 +1,8 @@
-from main import *
+from parking_lot import ParkingLot
+from level import Level
+from car import Car
+from motorcycle import Motorcycle
+from truck import Truck
 
 
 class ParkingLotDemo:
@@ -23,12 +27,12 @@ class ParkingLotDemo:
         parking_lot.display_availability()
 
         # Unpark Vehicles
-        # parking_lot.unpark_vehicle(car)
+        parking_lot.unpark_vehicle(car)
 
         print()
 
         # Display updated Availability
-        # parking_lot.display_availability()
+        parking_lot.display_availability()
 
 
 if __name__ == "__main__":
