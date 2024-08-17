@@ -6,6 +6,8 @@ from truck import Truck
 
 
 class ParkingLotDemo:
+
+    @staticmethod
     def run():
         parking_lot = ParkingLot.get_instance()
         parking_lot.add_level(Level(1, 3))
