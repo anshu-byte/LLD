@@ -17,7 +17,7 @@ class ParkingLot:
     @staticmethod
     def get_instance():
         if not ParkingLot._instance:
-            ParkingLot._instance = ParkingLot()
+            ParkingLot()
         return ParkingLot._instance
 
     def add_level(self, level: Level) -> None:
